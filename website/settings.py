@@ -25,7 +25,7 @@ SECRET_KEY = 'r@tjtf^-n=6yir#c)nprs)h51wc5#5^x@lz95+br_yyqtb0u8a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\ekrem\.conda\website\blog\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
